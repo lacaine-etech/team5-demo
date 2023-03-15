@@ -1,0 +1,10 @@
+#!/bin/bash
+# thiss scrfipt is to create a directory in the default user
+echo -n " please enter the directory name: "
+read directory
+mkdir $directory
+cd $directory 
+echo " We are Etech Engineers " > appbank
+
+
+
